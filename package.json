@@ -26,5 +26,8 @@
     "url": "https://github.com/polygon-city/citygml-boundaries/issues"
   },
   "homepage": "https://github.com/polygon-city/citygml-boundaries",
-  "dependencies": {}
+  "dependencies": {
+    "xmldom": "^0.1.19",
+    "xmldom-to-xml": "^0.1.0"
+  }
 }
