@@ -3,8 +3,6 @@ var domParser = new DOMParser();
 
 var xmldom2xml = require("xmldom-to-xml");
 
-module.exports = citygmlBoundaries;
-
 var citygmlBoundaries = function(xml) {
   var xmlDOM = domParser.parseFromString(xml);
 
@@ -16,3 +14,5 @@ var citygmlBoundaries = function(xml) {
     interior: interior
   };
 };
+
+module.exports = citygmlBoundaries;
